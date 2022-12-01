@@ -1,0 +1,71 @@
+:root{
+    --cor-bg-principal: #59B390;
+    --cor-bg-linear: #152B3C;
+    --cor-principal: #59B390;
+    --header-height: 2rem;
+    --logo-height: 100px;
+    --text-color: #e6dbdb;
+}
+
+body{
+    height: 100%;
+    background-image: url(mar.jpg);
+    font-family: 'Poppins';
+}
+
+h2{
+    color: white;
+    font-size: 6em;
+    text-align: center;
+}
+
+/*buttons*/
+
+.button {
+    display: inline-block;
+    
+    border-radius: 4px;
+    background-color: #ece1de;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
+    width: 15rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.shadow:hover{
+    box-shadow: 0 4px var(--cor-bg-principal);
+}
+
+.color:hover{
+    background-color: var(--cor-bg-principal);
+}
+
+.text span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+span{
+    color: var(--cor-bg-linear);
+    font-size: larger;
+    font-size: 20px;
+
+    font-family: 'Poppins';
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+}

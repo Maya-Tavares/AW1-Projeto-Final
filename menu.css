@@ -1,0 +1,19 @@
+:root{
+    --cor-bg-principal: #59B390;
+    --cor-bg-linear: #152B3C;
+    --cor-principal: #59B390;
+    --header-height: 2rem;
+    --logo-height: 100px;
+    --text-color: #e6dbdb;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(var(--cor-bg-principal), var(--cor-bg-linear));
+    height: 100vh;
+}
